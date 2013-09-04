@@ -1,0 +1,9 @@
+name: jTribe technical blog
+description: Writing about app development
+permalink:  /:year/:month/:title 
+markdown: redcarpet
+pygments: true
+source: site
+destination: public
+category_dir: /categories
+image_dir: /images

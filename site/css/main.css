@@ -1,0 +1,131 @@
+/* @override 
+	http://0.0.0.0:4000/css/main.css */
+
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { 
+	height: 100%;
+	margin: 0;
+	padding: 0;
+ }
+
+body {
+	font: 12pt "Lucida Grande", Lucida, Verdana, sans-serif;
+	font-style: normal;
+	text-align: center;
+	color: #000;
+	background-color: #B8B8B8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h1 { margin-bottom: 1em; }
+p { margin: 1em 0; }
+
+a         { color: #368DBA; }
+a:hover   { color: #3689FE; }
+a:visited { color: #6AA0BA; }
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 4em;
+}
+
+ul.posts li {
+  line-height: 2em;
+}
+
+.meta, ul.posts span {      
+  color: #999A98;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-variant: normal;
+}            
+             
+ul.posts span {
+	display: inline-block;
+	width: 80pt;
+}
+
+#header {
+  background-color: #000;
+  margin: 0;
+  padding-top: 40pt;
+  padding-bottom: 40pt;
+}
+
+#header a {
+  color: #fff;
+}
+
+#main {
+  margin: 0;
+  padding-top: 40pt;
+  padding-bottom: 40pt;
+  background-color: #fff;
+}
+
+#footer {
+  border-top: 14pt #ACACAC solid;
+  margin: 0;
+  padding-top: 40pt;
+  padding-bottom: 40pt;
+}
+
+#footer a {
+  color: #000;
+}
+
+#categories {
+  margin-top: 40pt;
+}
+
+#categories li {
+  display: inline-block;
+}
+
+.wrapper {
+  text-align: left;
+  margin-left: 120pt;
+  margin-right: 120pt;
+}
+
+
+.legacy-note {
+  background-color: #FFFA65;
+  padding: 20pt;
+  margin-bottom: 40pt;
+}
+
+@media screen and (max-width: 800px) {
+ 
+  .wrapper {
+    margin-left: 60pt;
+    margin-right: 60pt;
+  }
+}
+
+@media screen and (max-width: 600px) {
+ 
+  .wrapper {
+    margin-left: 20pt;
+    margin-right: 20pt;
+  }
+}
+
