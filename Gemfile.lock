@@ -1,3 +1,9 @@
+GIT
+  remote: git@github.com:jtribe/deploy-hooks.git
+  revision: 587ef3a93ea6a80c7ea74ae996da094ece029dae
+  specs:
+    deploy-hooks (0.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -6,7 +12,6 @@ GEM
     colorator (0.1)
     commander (4.1.4)
       highline (~> 1.6.11)
-    deploy-hooks (0.0.1)
     directory_watcher (1.4.1)
     fast-stemmer (1.0.2)
     highline (1.6.19)
@@ -38,5 +43,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  deploy-hooks
+  deploy-hooks!
   jekyll
